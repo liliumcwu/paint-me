@@ -1,0 +1,35 @@
+/* Author: Lily Wu
+   Date: June 9, 2017 */
+
+   #topRow {
+    margin: 40px auto;
+    width: 90%;
+   }
+
+   #heading {
+    height: 80px;
+    width: 40%;
+    float: left;
+    font-size: 45px;
+   }
+
+   .colorBoxes {
+    height: 80px;
+    width: 100px;
+    border: medium solid black;
+    float: left;
+    margin: 0 10px 0 10px;
+   }
+
+   #redBox {
+    background-color: red;
+   }
+
+   .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
