@@ -8,7 +8,6 @@
 
    #heading {
     height: 80px;
-    width: 40%;
     float: left;
     font-size: 45px;
    }
@@ -16,13 +15,31 @@
    .colorBoxes {
     height: 80px;
     width: 100px;
-    border: medium solid black;
-    float: left;
-    margin: 0 10px 0 10px;
+    border: 2px solid black;
+    float: right;
+    margin: 0 0 0 10px;
+   }
+
+   #yellowBox {
+    background-color: yellow;
+   }
+
+   #blueBox {
+    background-color: blue;
    }
 
    #redBox {
     background-color: red;
+   }
+
+   .row {
+    height:80px;
+   }
+
+   .square {
+    height: 80px;
+    float: left;
+    border: 2px solid #d3d3d3;
    }
 
    .clearfix:after {
