@@ -10,6 +10,7 @@
     height: 80px;
     float: left;
     font-size: 45px;
+    font-family: Arial, sans-serif;
    }
 
    .colorBoxes {
@@ -50,10 +51,19 @@
 
    #clearButton {
     float: right;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0 5px 0 0;
    }
 
    #newGridButton {
     float: right;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
    }
 
    #dialog {
