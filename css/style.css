@@ -1,5 +1,5 @@
 /* Author: Lily Wu
-   Date: June 9, 2017 */
+   Date: June 10, 2017 */
 
    #topRow {
     margin: 40px auto;
@@ -32,14 +32,32 @@
     background-color: red;
    }
 
-   .row {
-    height:80px;
+   .gridRow {
+    height: 80px;
+    margin: 0 0 0 10px;
    }
 
    .square {
     height: 80px;
     float: left;
     border: 2px solid #d3d3d3;
+   }
+
+   #bottomRow {
+    margin: 20px;
+    width: 90%;
+   }
+
+   #clearButton {
+    float: right;
+   }
+
+   #newGridButton {
+    float: right;
+   }
+
+   #dialog {
+    text-align: center;
    }
 
    .clearfix:after {
