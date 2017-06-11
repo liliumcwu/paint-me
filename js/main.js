@@ -25,14 +25,14 @@ function drawGrid(numRows, numCols) {
     alert('Invalid width. Please enter an integer greater than 0.');
     return false;
   }
-  while ($dialog.firstChild) {
+  while ($dialog.firstChild)
     $dialog.removeChild($dialog.firstChild);
-    console.log('removing dialog child');
-  }
+
   var squareWidth = 90 / numCols;
   for (var r = 1; r <= numRows; r++) {
     var $row = document.createElement('div');
     $row.className = 'gridRow clearfix';
+
     for (var c = 1; c <= numCols; c++) {
       var $square = document.createElement('div');
       $square.className = 'square';
@@ -62,10 +62,9 @@ function clearGrid() {
 }
 
 function makeNewGrid() {
-  while ($grid.firstChild) {
+  while ($grid.firstChild)
     $grid.removeChild($grid.firstChild);
-    console.log('removing grid child');
-  }
+
   var $heightText = document.createElement('p');
   $heightText.innerHTML = 'Height of new grid: ';
   var $heightPrompt = document.createElement('input');
