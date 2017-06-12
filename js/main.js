@@ -45,9 +45,9 @@ function drawGrid(numRows, numCols) {
 
 function colorGrid(color) {
   var boxId = color + 'Box';
-  var bla = document.getElementById(boxId).style.borderWidth = '5px';
+  document.getElementById(boxId).style.borderColor = 'black';
   for (var j = 0; j < 3; j++) {
-    if (color !== colors[j]) document.getElementById(colors[j] + 'Box').style.borderWidth = '2px';
+    if (color !== colors[j]) document.getElementById(colors[j] + 'Box').style.borderColor = 'white';
   }
   for (var i = 0; i < $squareNodes.length; i++)
     $squareNodes[i].addEventListener('click', function(event) { event.target.style.backgroundColor = color; });

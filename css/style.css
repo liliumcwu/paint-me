@@ -16,7 +16,7 @@
    .colorBoxes {
     height: 80px;
     width: 100px;
-    border: 2px solid black;
+    border: 5px solid white;
     float: right;
     margin: 0 0 0 10px;
    }
